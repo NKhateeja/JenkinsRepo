@@ -18,7 +18,7 @@ import GenericUtilities.WebDriverUtility1;
 
 public class CreditCustomerTest extends BaseClass{
 
-	@Test(groups = "RegressionTest")
+	@Test(invocationCount = 0, groups = "RegressionTest")
 	public void creditCustomer() throws Throwable {
 		WebDriverUtility1 Wut=new WebDriverUtility1();
 		FileUtilities Fut=new FileUtilities();

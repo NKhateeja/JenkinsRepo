@@ -14,7 +14,7 @@ import GenericUtilities.BaseClass;
 
 public class FundTransferTest extends BaseClass{
 
-	@Test(groups = "RegressionTest")
+	@Test(invocationCount = 0, groups = "RegressionTest")
 	public void fundTransfer() throws Throwable {
 		
 		//creating objects for pom classes

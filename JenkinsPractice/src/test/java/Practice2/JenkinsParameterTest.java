@@ -6,12 +6,11 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class JenkinsParameterTest {
 
 	@Test
-	public void mathod1() {
+	public void method1() {
 		WebDriver driver;
 
 		System.out.println("Before class executing");

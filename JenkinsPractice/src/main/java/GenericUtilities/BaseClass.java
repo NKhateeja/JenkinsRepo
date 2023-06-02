@@ -13,7 +13,7 @@ public class BaseClass {
 	
 	@BeforeClass
 	public void config_BC() {
-		WebDriverManager.chromiumdriver().setup();
+		WebDriverManager.chromiumdriver().create();
 		driver=new ChromeDriver();
 		
 	}

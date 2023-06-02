@@ -22,6 +22,6 @@ public class BaseClass {
 	
 	@BeforeMethod
 	public void config_BM() {
-		driver.get("https://www.google.com");
+		driver.get("http://rmgtestingserver/domain/Online_Banking_System/");
 	}
 }

@@ -2,7 +2,9 @@ package Practice2;
 
 import org.testng.annotations.Test;
 
-public class TS2Test {
+import GenericUtilities.BaseClass;
+
+public class TS2Test extends BaseClass {
 
 	@Test
 	public void tc01() {

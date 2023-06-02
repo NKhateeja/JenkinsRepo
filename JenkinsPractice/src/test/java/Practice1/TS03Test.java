@@ -7,6 +7,6 @@ public class TS03Test {
 
 	@Test
 	public void tc03() {
-		Reporter.log("test case 03");
+		Reporter.log("test case 03", true);
 	}
 }

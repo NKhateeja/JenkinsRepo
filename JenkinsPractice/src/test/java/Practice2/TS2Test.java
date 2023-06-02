@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import GenericUtilities.BaseClass;
 
-public class TS2Test extends BaseClass {
+public class TS2Test {
 
 	@Test
 	public void tc01() {

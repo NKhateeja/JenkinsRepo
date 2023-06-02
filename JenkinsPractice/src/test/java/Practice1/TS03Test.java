@@ -14,4 +14,9 @@ public class TS03Test {
 	public void tc04() {
 		System.out.println("test case 04");
 	}
+	
+	@Test(priority = -2)
+	public void tc05() {
+		System.out.println("tc05");
+	}
 }

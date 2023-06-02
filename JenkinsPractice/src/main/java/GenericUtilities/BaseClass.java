@@ -8,12 +8,14 @@ import org.testng.annotations.BeforeMethod;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
-
 	public WebDriver driver;
-	
+	static {
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+	}
 	@BeforeClass
 	public void config_BC() {
-		WebDriverManager.chromiumdriver().create();
+		
+		//WebDriverManager.chromiumdriver().create();
 		driver=new ChromeDriver();
 		
 	}

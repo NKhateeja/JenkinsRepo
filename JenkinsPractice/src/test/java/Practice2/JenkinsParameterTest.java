@@ -6,6 +6,8 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class JenkinsParameterTest {
 
 	@Test
@@ -28,7 +30,7 @@ public class JenkinsParameterTest {
 			driver=new FirefoxDriver();
 		}
 		else if(Browser.equalsIgnoreCase("edge")) {
-			//WebDriverManager.edgedriver().setup();
+			WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
 		}
 		else {

@@ -17,6 +17,7 @@ public class JenkinsParameterTest {
 		System.out.println("Before class executing");
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		System.setProperty("webdriver.gecko.driver", "./driver/geckodriver.exe");
+		System.setProperty("webdriver.msedge.driver", "./driver/msedgedriver.exe");
 		
 		String Browser = System.getProperty("browser");
 		String Url=System.getProperty("url");
@@ -30,7 +31,7 @@ public class JenkinsParameterTest {
 			driver=new FirefoxDriver();
 		}
 		else if(Browser.equalsIgnoreCase("edge")) {
-			WebDriverManager.edgedriver().setup();
+			//WebDriverManager.edgedriver().setup();
 			driver=new EdgeDriver();
 		}
 		else {

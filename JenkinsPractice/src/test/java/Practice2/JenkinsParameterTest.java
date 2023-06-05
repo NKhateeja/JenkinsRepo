@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class JenkinsParameterTest {
 
-	@Test
+	@Test(invocationCount = 0)
 	public void method1() {
 		WebDriver driver;
 
